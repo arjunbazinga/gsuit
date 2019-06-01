@@ -22,7 +22,7 @@ function init() {
         "Crying spells or tearfulness",
         "Feeling discouraged",
         "Feeling hopeless",
-        "Low selfesteem",
+        "Low self esteem",
         "Feeling worthless or inadequate",
         "Guilt or shame",
         "Criticizing yourself or blaming other",
@@ -93,8 +93,8 @@ function init() {
 function installedSuccessfully(link){
   Logger.log(link);
   var title = "BDC Installed";
-  var body = "You can acccess the form at : " + link
-  body = body + "feel free to modify this event to your liking"
+  var body = "You can access the form at : " + link
+  body = body + " feel free to modify this event to your liking "
   body = body + "if this link doesn't work open your google drive to access form"
   CalendarApp.getDefaultCalendar().createEvent(title, new Date(), new Date(), {
     description: body
